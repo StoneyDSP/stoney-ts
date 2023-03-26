@@ -1,0 +1,8 @@
+{
+  "display": "Lib: ScriptHost",
+  "compilerOptions": {
+    "lib": [
+      "ScriptHost"
+    ]
+  }
+}

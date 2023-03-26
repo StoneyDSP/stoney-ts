@@ -1,0 +1,8 @@
+{
+  "display": "Lib: ES5",
+  "compilerOptions": {
+    "lib": [
+      "ES5"
+    ]
+  }
+}

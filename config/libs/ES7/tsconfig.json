@@ -1,0 +1,8 @@
+{
+  "display": "Lib: ES7",
+  "compilerOptions": {
+    "lib": [
+      "ES7"
+    ]
+  }
+}

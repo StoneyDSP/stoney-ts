@@ -1,0 +1,9 @@
+{
+  "display": "Lib: ES2016",
+  "compilerOptions": {
+    "lib": [
+      "ES2016",
+      "ES2016.Array.Include"
+    ]
+  }
+}

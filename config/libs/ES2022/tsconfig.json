@@ -1,0 +1,13 @@
+{
+  "display": "Lib: ES2022",
+  "compilerOptions": {
+    "lib": [
+      "ES2022",
+      "ES2022.Array",
+      "ES2022.Error",
+      "ES2022.Intl",
+      "ES2022.Object",
+      "ES2022.String"
+    ]
+  }
+}

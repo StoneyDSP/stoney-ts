@@ -1,0 +1,8 @@
+{
+  "display": "Lib: ES6",
+  "compilerOptions": {
+    "lib": [
+      "ES6"
+    ]
+  }
+}

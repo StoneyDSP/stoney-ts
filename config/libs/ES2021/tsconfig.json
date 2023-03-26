@@ -1,0 +1,12 @@
+{
+  "display": "Lib: ES2021",
+  "compilerOptions": {
+    "lib": [
+      "ES2021",
+      "ES2021.Promise",
+      "ES2021.String",
+      "ES2021.WeakRef",
+      "es2021.intl"
+    ]
+  }
+}
