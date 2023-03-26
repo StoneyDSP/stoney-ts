@@ -1,3 +1,6 @@
 [submodule "bases"]
 	path = bases
 	url = git@github.com:tsconfig/bases.git
+[submodule "src/assets/css/stoney-css"]
+	path = src/assets/css/stoney-css
+	url = git@github.com:StoneyDSP/stoney-css.git
