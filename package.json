@@ -1,0 +1,22 @@
+{
+  "name": "stoney-ts",
+  "version": "1.0.0",
+  "description": "Stoney Typescript",
+  "type": "module",
+  "main": "./public/index.js",
+  "author": "Nathan J. Hood <nathanjhood@googlemail.com>",
+  "license": "MIT",
+  "private": true,
+  "preferGlobal": true,
+  "scripts": {
+    "build": "tsc",
+    "dev": "node ./public/index.js"
+  },
+  "dependencies": {
+    "typescript": "^5.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.10",
+    "@vercel/node": "^2.10.0"
+  }
+}
