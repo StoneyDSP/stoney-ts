@@ -5,6 +5,7 @@
   "cleanUrls": true,
   "public": false,
   "outputDirectory": "./dist",
+  "rootDirectory": ".",
 
   "git": {
     "deploymentEnabled": {
