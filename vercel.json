@@ -1,0 +1,21 @@
+{
+  "buildCommand": null,
+  "devCommand": "yarn dev",
+  "framework": null,
+  "cleanUrls": true,
+  "public": false,
+  "outputDirectory": "./dist",
+
+  "git": {
+    "deploymentEnabled": {
+      "main": false
+    }
+  },
+
+  "functions": {
+    "api/**/*.ts": {
+      "memory": 1024,
+      "maxDuration": 10
+    }
+  }
+}
