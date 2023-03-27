@@ -18,7 +18,7 @@
     "rebuild": "yarn clean && yarn build",
     "clean": "rm -rvf ./dist",
     "wipe": "rm -rvf node_modules",
-    "dev": "NODE_ENV=development && node ./index.js",
+    "dev": "NODE_ENV=development && serve",
     "prod": "NODE_ENV=production && node ./index.js",
     "deploy": "NODE_ENV=deployment && node ./index.js"
   },
