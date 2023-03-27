@@ -2,9 +2,6 @@
   "$schema": "https://json.schemastore.org/tsconfig",
 
   "extends": [
-    "./config/libs/DOM/tsconfig.json",
-    "./config/libs/ScriptHost/tsconfig.json",
-    "./config/libs/WebWorker/tsconfig.json",
     "./config/libs/ES2015/tsconfig.json",
     "./config/libs/ES2016/tsconfig.json",
     "./config/libs/ES2017/tsconfig.json",
@@ -15,7 +12,10 @@
     "./config/libs/ES5/tsconfig.json",
     "./config/libs/ES6/tsconfig.json",
     "./config/libs/ES7/tsconfig.json",
-    "./config/libs/ESNext/tsconfig.json"
+    "./config/libs/ESNext/tsconfig.json",
+    "./config/libs/DOM/tsconfig.json",
+    "./config/libs/ScriptHost/tsconfig.json",
+    "./config/libs/WebWorker/tsconfig.json"
   ],
 
   "exclude": [
