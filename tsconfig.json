@@ -24,7 +24,8 @@
     "./bases/*",
     "./.vercel/*",
     "./api/os/*",
-    "./api/server"
+    "./api/server",
+    "src/assets/js"
   ],
 
   // "extends": "./bases/bases/recommended.json",
