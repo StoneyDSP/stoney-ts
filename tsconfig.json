@@ -19,9 +19,12 @@
   ],
 
   "exclude": [
+    "./index.js",
     "./.vscode/*",
     "./bases/*",
-    "./.vercel/*"
+    "./.vercel/*",
+    "./api/os/*",
+    "./api/server"
   ],
 
   // "extends": "./bases/bases/recommended.json",

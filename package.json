@@ -3,14 +3,24 @@
   "version": "1.0.0",
   "description": "Stoney Typescript",
   "type": "module",
-  "main": "./public/index.js",
+  "main": "index.js",
   "author": "Nathan J. Hood <nathanjhood@googlemail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://github.com/StoneyDSP/stoney-ts.git"
+  },
   "license": "MIT",
+  "packageManager": "yarn@1.22.19",
   "private": true,
   "preferGlobal": true,
   "scripts": {
     "build": "tsc",
-    "dev": "node ./public/index.js"
+    "rebuild": "yarn clean && yarn build",
+    "clean": "rm -rvf ./dist",
+    "wipe": "rm -rvf node_modules",
+    "dev": "NODE_ENV=development && node ./index.js",
+    "prod": "NODE_ENV=production && node ./index.js",
+    "deploy": "NODE_ENV=deployment && node ./index.js"
   },
   "dependencies": {
     "typescript": "^5.0.2"

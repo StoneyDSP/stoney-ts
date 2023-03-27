@@ -7,7 +7,7 @@ import * as fs from "fs";
 // export const hostname = process.env["HOSTNAME"];
 // export const port = process.env["PORT"];
 export const hostname = "127.0.0.1";
-export const port = 3000;
+export const port = 8080;
 export const server = http.createServer();
 
 server.on("request", (request, response) => {
