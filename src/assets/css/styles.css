@@ -1,1 +1,6 @@
 @import url("./stoney-css/styles.css");
+
+img.image {
+  width: 100%;
+  height: auto;
+}
